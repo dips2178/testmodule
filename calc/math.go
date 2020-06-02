@@ -1,7 +1,7 @@
 package calc
 
 // returns sum and product of two integers
-func AddAndMul(numbers ...int) (int,prod) {
+func AddAndMul(numbers ...int) (result int,prod int) {
 	sum := 0
 	prod := 1
 	for _, num := range numbers {
